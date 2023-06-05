@@ -17,7 +17,7 @@ h1{
 }
 
 .container{
-    width: 85%;
+    width: 90% ;
     margin: auto;
     padding: 0 15px;
 
@@ -94,7 +94,7 @@ footer a:hover{
 }
 
 /* Pantallas */
-@media screen and (min-width: 1222px){
+@media screen and (min-width: 1400px){
     .container{
         width: 65%;
     }
