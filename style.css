@@ -46,7 +46,7 @@ h1{
 img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;/* La imagen ocupa todo su contenedor sin distorcionar la relación de aspecto */
     border-radius: 10px;
 
 }
@@ -71,7 +71,9 @@ footer a:hover{
 
 /* Responsive */
 
+/* Celular */
 @media screen and (max-width: 768px){
+    /* hay solo una columna que ocupa todo el espacio */
     .container{
         grid-template-columns: 100%;
     }
@@ -89,5 +91,13 @@ footer a:hover{
     }
 
 
+}
+
+/* Pantallas */
+@media screen and (min-width: 1222px){
+    .container{
+        width: 65%;
+    }
+    
 }
 
